@@ -1,1 +1,0 @@
-Fix: Corrected Vite base path to match GitHub repository name 'MASCOTAS'.

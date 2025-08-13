@@ -1,0 +1,7 @@
+{
+  "name": "RapidBites",
+  "description": "A modern and functional web application for a fast-food restaurant that allows customers to explore the menu and place orders, and provides a comprehensive admin panel for order management, real-time analytics, and operational control.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "menuItems": [
+    {
+      "id": 1,
+      "name": "Hamburguesa 'La Todoterreno'",
+      "description": "Carne de res jugosa de 150g, queso doble crema, tocineta crujiente, lechuga, tomate, ripio de papa y nuestras salsas de la casa en pan brioche.",
+      "price": 25000,
+      "image": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?q=80&w=800&auto=format&fit=crop",
+      "category": "Hamburguesas",
+      "customizableOptions": [
+        {
+          "title": "Término de la Carne",
+          "type": "radio",
+          "options": [
+            { "name": "Medio", "priceModifier": 0 },
+            { "name": "Tres Cuartos", "priceModifier": 0 },
+            { "name": "Bien Asada", "priceModifier": 0 }
+          ]
+        },
+        {
+          "title": "Adiciones",
+          "type": "checkbox",
+          "options": [
+            { "name": "Huevo Frito", "priceModifier": 3000 },
+            { "name": "Aguacate", "priceModifier": 4000 },
+            { "name": "Queso Extra", "priceModifier": 3500 }
+          ]
+        },
+        {
+          "title": "Acompañamiento",
+          "type": "radio",
+          "options": [
+            { "name": "Sin Acompañamiento", "priceModifier": 0 },
+            { "name": "Papas a la Francesa", "priceModifier": 6000 },
+            { "name": "Papa Criolla", "priceModifier": 7000 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Salchipapa 'La Monstruosa'",
+      "description": "Una base de papas a la francesa, salchicha premium, chorizo, butifarra, queso costeño rallado, y huevos de codorniz. ¡Bañada en salsa rosada y tártara!",
+      "price": 22000,
+      "image": "https://plus.unsplash.com/premium_photo-1699421526322-3884bff91c6e?q=80&w=800&auto=format&fit=crop",
+      "category": "Para Picar",
+      "customizableOptions": [
+        {
+          "title": "Adiciones Carnívoras",
+          "type": "checkbox",
+          "options": [
+            { "name": "Pollo Desmechado", "priceModifier": 5000 },
+            { "name": "Tocineta Bits", "priceModifier": 4000 },
+            { "name": "Maíz Tierno", "priceModifier": 3000 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Perro Caliente 'El Americano'",
+      "description": "Salchicha americana premium en pan suave, con tocineta, queso mozzarella gratinado, ripio de papa y nuestra inconfundible salsa de piña.",
+      "price": 18000,
+      "image": "https://images.unsplash.com/photo-1599599810694-b5b37304c041?q=80&w=800&auto=format&fit=crop",
+      "category": "Perros Calientes"
+    },
+    {
+      "id": 4,
+      "name": "Arepa con Todo",
+      "description": "Crujiente arepa de maíz blanco, rellena de carne y pollo desmechado, chicharrón, aguacate y un toque de hogao.",
+      "price": 20000,
+      "image": "https://images.unsplash.com/photo-1638583482333-ce8b2c2a7924?q=80&w=800&auto=format&fit=crop",
+      "category": "Arepas"
+    },
+    {
+      "id": 5,
+      "name": "Picada para Dos",
+      "description": "La mejor selección para compartir: trozos de chicharrón, chorizo, morcilla, papa criolla, yuca frita y arepitas con hogao.",
+      "price": 35000,
+      "image": "https://images.pexels.com/photos/13593055/pexels-photo-13593055.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "category": "Para Picar"
+    },
+    {
+      "id": 6,
+      "name": "Empanadas Colombianas (x5)",
+      "description": "Cinco empanadas crujientes rellenas de carne y papa, acompañadas de nuestro ají casero. ¡Como las de la abuela!",
+      "price": 15000,
+      "image": "https://images.unsplash.com/photo-1616898124993-997012389445?q=80&w=800&auto=format&fit=crop",
+      "category": "Aperitivos"
+    },
+    {
+      "id": 7,
+      "name": "Gaseosa Postobón / Coca-Cola",
+      "description": "Elige tu bebida preferida para acompañar: Manzana, Uva, Naranja, Colombiana o Coca-Cola.",
+      "price": 4000,
+      "image": "https://images.unsplash.com/photo-1554866585-CD94860890b7?q=80&w=800&auto=format&fit=crop",
+      "category": "Bebidas"
+    },
+    {
+      "id": 8,
+      "name": "Jugo Natural (Agua/Leche)",
+      "description": "Refrescante jugo preparado con fruta fresca. Elige entre Mora, Lulo, Maracuyá o Fresa. Pídelo en agua o en leche.",
+      "price": 7000,
+      "image": "https://images.unsplash.com/photo-1600271886742-f049cd452bba?q=80&w=800&auto=format&fit=crop",
+      "category": "Bebidas"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "¡Parce, la hamburguesa 'Todoterreno' es de otro nivel! El pedido por la página fue una bola, y todo llegó caliente. ¡La buena!",
+      "name": "Carlos Vélez",
+      "city": "Medellín",
+      "rating": 5
+    },
+    {
+      "quote": "Uff, ¡qué salchipapa tan brutal! Me encantó que se pudiera pedir y pagar todo por el chat. ¡Full recomendado, servicio 1A!",
+      "name": "Valentina Rojas",
+      "city": "Bogotá D.C.",
+      "rating": 5
+    },
+    {
+      "quote": "Bacano el servicio, y la comida ni se diga. El sitio web es súper fácil de usar. Perfecto para calmar el hambre con algo bien rico.",
+      "name": "Santiago Peña",
+      "city": "Cali",
+      "rating": 4
+    }
+  ],
+  "orders": [],
+  "stats": {
+    "revenueToday": 2540000,
+    "ordersToday": 0,
+    "newCustomers": 0,
+    "averageRating": 4.8
+  }
+}
